@@ -10,12 +10,15 @@ This is an Online Library System built using React and Redux. It allows users to
 - **Add Book Page**: Add new books to the library with form validation.
 - **404 Page**: A "Page Not Found" error page for undefined routes.
 
-## Folder Structure
-- **src/
- - ** components/**   # React components (Home, BrowseBooks, BookDetails, AddBook)
- - ** redux/**        # Redux store, reducers, and actions
- - ** App.js**        # Main application file with routes
- - ** index.js**      # Entry point
+src/
+├── components/         # React components (Home, BrowseBooks, BookDetails, AddBook)
+│
+├── redux/              # Redux store, reducers, and actions
+│
+├── App.js              # Main application file with routes
+│
+└── index.js            # Entry point
+
 
 ## Technologies Used
 - **React**: For building the UI.
