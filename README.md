@@ -1,8 +1,24 @@
-# React + Vite
+Online Library System
+Description
+This is an Online Library System built using React and Redux. It allows users to browse, search, view details, and add books to the library. The app includes features like dynamic routing, form validation, and state management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Home Page: A welcome page with book categories and popular books.
+Browse Books Page: View books by category or search by title/author.
+Book Details Page: View detailed information about a specific book.
+Add Book Page: Add new books to the library with form validation.
+404 Page: A "Page Not Found" error page for undefined routes.
 
-Currently, two official plugins are available:
+Folder Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+src/
+  components/   # React components (Home, BrowseBooks, BookDetails, AddBook)
+  redux/        # Redux store, reducers, and actions
+  App.js        # Main application file with routes
+  index.js      # Entry point
+
+Technologies Used
+React: For building the UI.
+Redux: For state management.
+React Router: For handling page navigation.
+HTML/CSS: For basic styling.
